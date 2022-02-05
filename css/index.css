@@ -78,6 +78,7 @@ section {
 body {
   font-family: "Segoe", Arial, Verdana, sans-serif;
   max-width: 1920px;
+  overflow-x: hidden !important;
   margin: 0 auto;
   color: #4e7d96;
   width: 100%;
