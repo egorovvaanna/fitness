@@ -1,0 +1,114 @@
+@media (max-width: 1000px) {
+    .activity_articles {
+        flex-wrap: wrap;
+    }
+    .activity_article:nth-child(odd) {
+        margin-bottom: 0;
+    }
+    .activity_article:nth-child(even) {
+        margin-top: 0;
+    }
+
+    .activity_article {
+        flex: 0 0 45%;
+        margin-bottom: 40px !important;
+    }
+    .hero_container{
+        padding: 25px 0;
+    }
+    .hero_button {
+        width: 70%;
+    }
+}
+@media (max-width: 850px) {
+    .header_menu_item a {
+        font-size: 20px;
+    }
+    .header_menu_item a:hover {
+        font-size: 20px;
+        padding: 8px 20px;
+    }
+    .workout_container,
+    .exersices_container,
+    .yoga_container, .vigets {
+        flex-direction: column;
+        flex: 0 0 90%;
+        align-items: center;
+    }
+    .exersices_container,
+    .meals_container {
+        flex-direction: column-reverse;
+    }
+    .section-button {
+        width: 50%;
+    }
+    .workout_button-white {
+        margin-top: 20px;
+    }
+    .section-content {
+        text-align: center;
+        margin: 0 0 30px 0;
+        align-items: center;
+    }
+    .picture {
+        margin: 0 auto !important;
+    }
+    .viget_item{
+margin: 0 0 30px 0 !important;
+width: 80%;
+
+    }
+}
+@media (max-width: 750px){
+    .hero_picture{
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .header_logo img {
+        max-height: 90px;
+    }
+    .header_menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        height: 100vh;
+        background-color: #fff;
+        width: 60%;
+        z-index: 110;
+        font-size: 24px;
+        transform: translateX(101%);
+        transition: transform 0.3s ease;
+      }
+      .header_menu  >li{
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+      .header_menu.active {
+        transform: none;
+      }
+      .header_menu_item a:hover{
+        color: #e2cc85;
+            background: none;
+            padding: 0;
+    }
+    .header_burger {
+        display: block;
+        font-size: 30px;
+    }
+}
+@media (max-width: 530px) {
+    .hero_content{
+        text-align: center;
+    }
+    .activity_article {
+        flex: 0 0 90%;
+        margin-bottom: 50px !important;
+    }
+    .btn{
+        width: 80%;
+    }
+}
